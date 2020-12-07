@@ -38,7 +38,7 @@
         
         @media only screen and (max-width: 600px) {
             body {
-                background-image: url('/images/groot12.jpg');
+                background-image: url('/images/grooot1.jpg');
             }
         }
         
@@ -70,13 +70,26 @@
             border: 0;
         }
         
-        .footer {
-            background-color: var(--primary-color);
-            text-align: center;
-            width: 100%;
-            margin: 7rem 0 0 0;
-            border: 0;
-            opacity: 0.5;
+        @media only screen and (min-width: 602px) {
+            .footer {
+                background-color: var(--primary-color);
+                text-align: center;
+                width: 100%;
+                margin: 7rem 0 0 0;
+                border: 0;
+                opacity: 0.5;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .footer {
+                background-color: var(--primary-color);
+                text-align: center;
+                width: 100%;
+                margin: 3rem 0 0 0;
+                border: 0;
+                opacity: 0.5;
+            }
         }
         
         .footer-div {
