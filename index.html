@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baby-Groot speaks</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
          :root {
             --primary-color: #FFEBCD;
             --off-white: #F3F4F6;
@@ -69,6 +69,22 @@
             border-radius: 0.3rem;
             border: 0;
         }
+        
+        .footer {
+            background-color: var(--primary-color);
+            text-align: center;
+            width: 100%;
+            margin: 7rem 0 0 0;
+            border: 0;
+            opacity: 0.5;
+        }
+        
+        .footer-div {
+            width: 75%;
+            text-align: center;
+            margin: auto;
+        }
+    }
     </style>
 </head>
 
@@ -78,7 +94,7 @@
     <h1 class="hero" style="color: var(--off-white);">Baby-Groot Translator</h1>
 
 
-
+    <!-- https://api.funtranslations.com/translate/groot.json -->
     <!-- input -->
     <textarea id="input-txt" class="boxes" placeholder="Type your text here..."></textarea>
     <!-- button -->
@@ -87,6 +103,16 @@
     <!-- output -->
 
     <textarea id="output" class="boxes" placeholder="see your translated text here"></textarea>
+
+    <!-- footer -->
+    <footer class="footer">
+        <h2 style="text-align: center;">About</h2>
+        <div class="footer-div">
+
+            I am Groot grooot!!!! I am grootttt Grooooooot! Groot grooot Groot!!!!
+            <p>Made with ❤️‍ by sai sumanth</p>
+        </div>
+    </footer>
 
     <script src="app.js"></script>
 </body>
