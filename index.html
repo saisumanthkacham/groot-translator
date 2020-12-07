@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>minion speaks</title>
+    <title>Baby-Groot speaks</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
          :root {
-            --primary-color: #f7d448;
+            --primary-color: #FFEBCD;
             --off-white: #F3F4F6;
-            --off-blue: #517ed8;
+            --off-blue: #5A7139;
             --off-yellow: #FEF3C7;
         }
         
@@ -19,8 +19,26 @@
         }
         
         * {
-            font-family: 'Stylish', sans-serif;
+            font-family: 'Staatliches', cursive;
             font-size: 1.2rem;
+        }
+        
+        @media only screen and (min-width: 1000px) {
+            body {
+                background-image: url('/images/black.jpg');
+            }
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            body {
+                background-image: url('/images/grut.jpg');
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                background-image: url('/images/groot.jpg');
+            }
         }
         
         .hero {
@@ -38,6 +56,7 @@
             padding: 1rem 3rem 2rem 1rem;
             margin: 1rem auto;
             border-radius: 0.3rem;
+            opacity: 0.5;
         }
         
         button {
@@ -54,7 +73,9 @@
 
 <body>
 
-    <h1 class="hero" style="color: var(--off-white);">Minion app</h1>
+    <!-- header -->
+    <h1 class="hero" style="color: var(--off-white);">Baby-Groot Translator</h1>
+
 
 
     <!-- input -->
